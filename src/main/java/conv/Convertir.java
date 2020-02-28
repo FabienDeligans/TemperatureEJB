@@ -14,15 +14,15 @@ import javax.ejb.Stateless;
 @Stateless
 public class Convertir {
 
-    public double ConvertirCelciusToFahrenheit(double t){
-        double fahrenheit; 
-        fahrenheit = 9.0 / 5.0 * t + 32; 
-        return fahrenheit; 
+    public double ConvertirCelciusToFahrenheit(double t) {
+        double fahrenheit;
+        fahrenheit = 9.0 / 5.0 * t + 32;
+        return fahrenheit;
     }
-    
-    public double convertirFahrenheitToCelcius(double t){
-        double celcius; 
-        celcius = (t-32) * 5.0 / 9.0; 
-        return celcius; 
+
+    public double convertirFahrenheitToCelcius(double t) {
+        double celcius;
+        celcius = (t - 32) * 5.0 / 9.0;
+        return celcius;
     }
 }
